@@ -41,7 +41,7 @@ export const connect = () => {
       },
     });
     const abi = await abiResponse.json();
-    const configResponse = await fetch("/config/config.json", {
+    const configResponse = await fetch("/dapp-test/config/config.json", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
